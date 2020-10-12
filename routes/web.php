@@ -32,4 +32,4 @@ Route::delete('/specialties/{specialty}', 'SpecialtyController@destroy');// Elim
 Route::resource('doctors', 'DoctorController');
 
 //Pacientes
-Route::resource('patients', 'DoctorController');
+Route::resource('patients', 'PatientController');
